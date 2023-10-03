@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="Google Sheet.css">
+</head>
+<body>
+    <h1>Plataforma de Cadastro de Membros FRELIMO</h1>
+	<div class="container">
+		<form method="post" action="https://script.google.com/macros/s/AKfycbw7FraUhLd7Tn_ND9LQpIKmKJiV8grouRSJ6ydyK8a8wTYaBd3b6WFhOtZCcOAGJwQk/exec" name="contact-form">
+			<h4>Cadastro</h4>
+			<input type="text" name="Nome" placeholder="Nome">
+			<label for="gender">Gender:</label>
+			<select id="gender" name="Gênero">
+				<option value="H">Homem</option>
+				<option value="M">Mulher</option>
+			</select>
+			<!--<input type="text" name="Gênero" placeholder="Gênero"-->
+			<input type="text" name="Célula" placeholder="Célula">
+			<input type="number" name="Número de Cartão de Membro" placeholder="Número de Cartão de Membro">
+			<input type="date" name="Data de Nascimento" placeholder="Data de Nascimento">
+			<!--<input type="text" name="Comité" placeholder="Comité"-->
+			<label for="Comité">Gender:</label>
+			<select id="gender" name="Comité">
+				<option value="Sede">Sede</option>
+				<option value="Namanda">Namanda</option>
+				<option value="Nampevo">Nampevo</option>
+				<option value="Nipiode">Nipiode</option>
+				<option value="Mugulama">Mugulama</option>
+				<option value="Mualacamue">Mualacamue</option>
+				<option value="Curruane">Curruane</option>
+			</select>
+			<input type="submit" value="Submeter" id="submit">
+		</form>
+	</div>
+
+	<script src="Google Sheet.js"></script>
+</body>
+</html>
